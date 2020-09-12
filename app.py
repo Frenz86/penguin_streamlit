@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
 
 
 st.write("""
@@ -81,3 +80,5 @@ st.write(penguins_species[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+st.set_option('deprecation.showfileUploaderEncoding', False)
